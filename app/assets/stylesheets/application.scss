@@ -1,0 +1,79 @@
+
+ // "bootstrap-sprockets" must be imported before "bootstrap" and "bootstrap/variables"
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+ .container {
+   color: white;
+ }
+
+ body {
+   font-family: 'News Cycle', sans-serif;
+
+   background-color: #7D747F;
+   color: white;
+   text-shadow: 1px 1px 1px #000,
+   3px 3px 5px #3F3A40;
+
+ }
+
+ .jumbotron {
+   background-color:#b7beca;
+   margin-top: 50px;
+ }
+
+ nav p {
+   color: #E1D0E5;
+   font-size: 10px;
+   float: left;
+   padding-right: 25px;
+ }
+
+ nav p a{
+   color: #E1D0E5;
+ }
+
+ nav p a:hover {
+   color: #BCADBF;
+ }
+
+ input {
+   background: #7D747F;
+ }
+
+ h1 {
+   font-family: 'Philosopher', sans-serif;
+   font-weight: 700;
+ }
+
+ ul li h3 {
+   width: 60px;
+
+ }
+
+nav p a {
+   font-size: 30px;
+   color: #E1D0E5;
+}
+
+nav p a:hover {
+  color: #BCADBF;
+}
+ul
+{
+  list-style-type: none;
+}
+
+ul li a {
+  padding-left: 20px;
+  font-size: 20px;
+  color: #E1D0E5;
+}
+
+ul li a:hover {
+color: #BCADBF;
+}
+
+.project_edit li h3 {
+  display: inline-block
+}

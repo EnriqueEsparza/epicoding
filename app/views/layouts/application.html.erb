@@ -5,12 +5,19 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
+
+  <link href='http://fonts.googleapis.com/css?family=News+Cycle|Philosopher:700|Rokkitt:400,700' rel='stylesheet' type='text/css'>
+
 </head>
 <body>
-  <%= flash[:alert] %>
-  <%= flash[:notice] %>
+  <div class="jumbotron">
+    <div class="container">
+      <%= flash[:alert] %>
+      <%= flash[:notice] %>
 
-<%= yield %>
+      <%= yield %>
+    </div>
+  </div>
 
 </body>
 </html>
